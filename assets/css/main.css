@@ -150,7 +150,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2.5em;
 		letter-spacing: -0.025em;
 	}
 
@@ -1959,7 +1959,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #999;
+		color: #000;
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
@@ -1970,11 +1970,11 @@ input, select, textarea {
 		text-align: center;
 		margin: 0 0 2em 0;
 	}
-
+/*
 		header.major h2 {
 			font-size: 2.25em;
 		}
-
+*/
 		header.major p {
 			position: relative;
 			border-top: solid 1px #e0e0e0;
@@ -1983,6 +1983,8 @@ input, select, textarea {
 			top: -1em;
 			font-size: 1.5em;
 			letter-spacing: -0.025em;
+			font-family: Arial;
+			color: #555
 		}
 
 	footer {
@@ -2690,7 +2692,7 @@ input, select, textarea {
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 0.4em;
 		}
 
 			#banner header h2 {
