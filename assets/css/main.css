@@ -33,6 +33,23 @@ body {
 	line-height: 1;
 }
 
+table {
+    width: 70%; /* Adjust as per your layout */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px;
+    text-align: left;
+    font-family: Arial
+}
+th {
+    background-color: #f9f9f9; /* Light grey background */
+    font-weight: bold;
+}
+
 ol, ul {
 	list-style: none;
 }
