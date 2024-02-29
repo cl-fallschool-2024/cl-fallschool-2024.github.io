@@ -6,10 +6,30 @@
 -->
 <html>
 	<head>
-		<title id="logo">CL Fall School 2024</title>
+		<title>Venue</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.row {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+			.column {
+				flex: 0 0 auto;
+				margin: 10px;
+			}
+			.column img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.space {
+				margin-bottom: 20px;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 		<div id="page-wrapper">
@@ -45,16 +65,34 @@
 										<article>
 											<header>
 												<h2>Venue</h2>
+												<p>More to come...</p>
 											</header>
 
 											<h3>About Passau</h3>
-											<p>This year's CL Fall School is located at the University of Passau, situated in the heart of Bavaria.</p>
+											<p>This years CL Fall School is located at the University of Passau, situated in the heart of Bavaria.</p>
 											<p>The city of Passau is situated at the confluence of three rivers - the Danube, the Inn, and the Ilz - and is therefore often referred to as the “City on Three Rivers”. Passau is characterized by its historic builidings, narrow cobblestone streets and inviting squares that invite for leisurely strolls. The St. Stephen’s cathedral and the Veste Oberhaus are only two of Passau’s impressive architectural gems. </p>
 											<p>If you are not into architecture and history, Passau also offers a vibrant cultural scene. You can enjoy local cuisine and the famous Bavarian beers in the numerous beer gardens in the city.  </p>
-											
+
+											<div class="row">
+                        									<div class="column">
+                          										<img src="images/Passau_panorama.jpg" alt="Passau Panorama" style="width:550px;height:300px;">
+                        									</div>
+
+                        									<div class="column">
+                            										<img src="images/Passau_night.jpg" alt="University campus" style="width:550px;height:300px;">
+                        									</div>
+                      									</div>
+
+											<p class="space"></p>
 
 											<h3>University of Passau</h3>
 											<p>The University of Passau is situated in a picturesque setting close to the city’s historic Old Town. Approximately 11,000 students benefit from the diverse academic offerings, as the university is known for its excellence in teaching and research across a wide range of disciplines, from humanities and social sciences to natural sciences and engineering. </p>
+
+											<div class="row">
+												<img src="images/Passau_campus.jpg" alt="Passau Panorama" style="width:500px;height:300px;">
+											</div>
+
+											<p class="space"></p>
 
 											<h3>How to come to Passau</h3>
 											<p>If you are travelling by plane, the closest airports to Passau are Munich Airport (MUC) and Linz Airport (LNZ) in Austria. To come to Passau you have the option to take an (international) long-distance train or drive to Passau by car. </p>
@@ -128,6 +166,7 @@
 
 				</div>
 
+		</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
