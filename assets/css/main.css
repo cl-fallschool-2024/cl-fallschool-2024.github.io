@@ -160,6 +160,14 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+	p {
+	    font-size: 1.2em;
+	}
+
+	ul, li {
+	    font-size: 20px;
+	}
+
 	p, ul, ol, dl, table, blockquote {
 		margin: 0 0 2em 0;
 	}
@@ -187,7 +195,12 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.2em;
+		font-size: 1.4em;
+		letter-spacing: -0.025em;
+	}
+
+	h4 {
+		font-size: 1.7em;
 		letter-spacing: -0.025em;
 	}
 
@@ -2764,6 +2777,7 @@ input, select, textarea {
 			background: #fff;
 		}
 
+
 		.wrapper.style2 {
 			background-color: #fff;
 			background-image: url("images/bg02.png"), url("images/bg03.png"), url("images/bg01.png");
@@ -2960,7 +2974,12 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
-			h1, h2, h3, h4, h5, h6 {
+			h4 {
+			    margin-bottom: 0.5em;
+			    font-size: 1.3em;
+			}
+
+			h1, h2, h3, h5, h6 {
 				margin-bottom: 0.5em;
 			}
 
@@ -3264,16 +3283,20 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.25em;
+				font-size: 1.4em;
 				letter-spacing: 0;
 				line-height: 1.35em;
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.2em;
 				letter-spacing: 0;
 				line-height: 1.35em;
 			}
+
+			ul, li {
+	            font-size: 15px;
+	        }
 
 			header p {
 				margin-top: -0.5em;
