@@ -172,6 +172,10 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	#header h2 {
+	    margin-bottom: 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 600;
@@ -2581,14 +2585,15 @@ input, select, textarea {
 		text-align: center;
 		padding: 3em 0 0 0;
 		background-color: #fff;
-		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png");
-		background-position: top left,					top left,					top left;
-		background-size: 100% 6em,					100% 6em,					auto;
-		background-repeat: no-repeat,					no-repeat,					repeat;
+		background-image: url("images/bg02.png"), url("images/bg02.png"), url("images/bg01.png"), url("images/uni-passau-logo.png"), url("images/gscl-logo.png"), url("images/dgfs-logo.png");
+		background-position: top left,					top left,					top left,       right 50% bottom 110px,          left 18% bottom 110px,         right 18% bottom 110px;
+		background-size: 100% 6em,					100% 6em,					auto,               120px 85px,                      120px 100px,                   250px 100px;
+		background-repeat: no-repeat,					no-repeat,					repeat,         no-repeat;
 	}
 
 		#header h1 {
-			padding: 0 0 2.75em 0;
+		    /*increased margin to fit logos*/
+			padding: 0 0 3.5em 0;
 			margin: 0;
 		}
 
@@ -2908,10 +2913,6 @@ input, select, textarea {
 			#header {
 				padding: 2em 0 0 0;
 			}
-
-				#header h1 {
-					padding: 0 0 1.75em 0;
-				}
 
 		/* Banner */
 
